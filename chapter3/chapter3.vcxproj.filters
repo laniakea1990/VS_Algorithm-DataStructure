@@ -15,19 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum_recursive.c">
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\queue.h">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\pow.c">
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_array.h">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\binary_search.c">
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_list.h">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\gcd.c">
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.h">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum.c">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

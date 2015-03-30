@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}</ProjectGuid>
+    <ProjectGuid>{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Algorithm_DS</RootNamespace>
-    <ProjectName>chapter2</ProjectName>
+    <RootNamespace>chapter4</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,11 +78,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\binary_search.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\gcd.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum_recursive.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\pow.c" />
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\directory_traversal.h" />
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\tree.h" />
+    <ClInclude Include="binary_search_tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

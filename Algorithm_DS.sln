@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm_DS", "Algorithm_DS\Algorithm_DS.vcxproj", "{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter2", "Algorithm_DS\Algorithm_DS.vcxproj", "{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter3", "chapter3\chapter3.vcxproj", "{68A85053-309B-47CA-B5BB-FD0D8DED8161}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter4", "chapter4\chapter4.vcxproj", "{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}.Debug|Win32.Build.0 = Debug|Win32
 		{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}.Release|Win32.ActiveCfg = Release|Win32
 		{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}.Release|Win32.Build.0 = Release|Win32
+		{68A85053-309B-47CA-B5BB-FD0D8DED8161}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68A85053-309B-47CA-B5BB-FD0D8DED8161}.Debug|Win32.Build.0 = Debug|Win32
+		{68A85053-309B-47CA-B5BB-FD0D8DED8161}.Release|Win32.ActiveCfg = Release|Win32
+		{68A85053-309B-47CA-B5BB-FD0D8DED8161}.Release|Win32.Build.0 = Release|Win32
+		{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}.Debug|Win32.Build.0 = Debug|Win32
+		{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}.Release|Win32.ActiveCfg = Release|Win32
+		{EDF7C7FE-5A7C-4067-99E1-242BE116FBCC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

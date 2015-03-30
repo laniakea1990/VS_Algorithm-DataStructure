@@ -15,20 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum_recursive.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\pow.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\binary_search.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\gcd.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\directory_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
