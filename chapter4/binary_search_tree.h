@@ -83,6 +83,8 @@ SearchTree Insert(int X, SearchTree T)
 	}
 	else if (X < T->Element)
 		T->left = Insert(X, T->left);
+	else if (X > T->Element)
+		T->right = Insert(X, T->right);
 
 	return T;	//Do not forget this line!!
 }
