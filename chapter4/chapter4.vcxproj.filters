@@ -24,9 +24,15 @@
     <ClInclude Include="binary_search_tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AvlTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BST_search_insert--geeks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AvlTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -80,9 +80,11 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\directory_traversal.h" />
     <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter4\tree.h" />
+    <ClInclude Include="AvlTree.h" />
     <ClInclude Include="binary_search_tree.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AvlTree.cpp" />
     <ClCompile Include="BST_search_insert--geeks.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
