@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HashQuad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="HashSep.h">
       <Filter>头文件</Filter>
     </ClInclude>
