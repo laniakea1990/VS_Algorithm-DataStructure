@@ -14,6 +14,7 @@
     <ProjectGuid>{68A85053-309B-47CA-B5BB-FD0D8DED8161}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>chapter3</RootNamespace>
+    <ProjectName>chapter3---List、Stack、Queue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
