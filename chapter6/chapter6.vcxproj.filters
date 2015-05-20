@@ -15,10 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InsertionSort.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Shellsort.cpp">
+    <ClInclude Include="BinHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinHeap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

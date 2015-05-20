@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{64943C9B-1407-4C48-A02D-00B50E412090}</ProjectGuid>
+    <ProjectGuid>{9AB399D2-E0A2-4501-B632-3C5898362757}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>chapter7Sort</RootNamespace>
+    <RootNamespace>chapter6</RootNamespace>
+    <ProjectName>chapter6---Priority queue(Heap)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,8 +79,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InsertionSort.cpp" />
-    <ClCompile Include="Shellsort.cpp" />
+    <ClInclude Include="BinHeap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinHeap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

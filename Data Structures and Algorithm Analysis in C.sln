@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter5---Hash", "chapter5
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter7---Sort", "chapter7---Sort\chapter7---Sort.vcxproj", "{64943C9B-1407-4C48-A02D-00B50E412090}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter6---Priority queue(Heap)", "chapter6\chapter6.vcxproj", "{9AB399D2-E0A2-4501-B632-3C5898362757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{64943C9B-1407-4C48-A02D-00B50E412090}.Debug|Win32.Build.0 = Debug|Win32
 		{64943C9B-1407-4C48-A02D-00B50E412090}.Release|Win32.ActiveCfg = Release|Win32
 		{64943C9B-1407-4C48-A02D-00B50E412090}.Release|Win32.Build.0 = Release|Win32
+		{9AB399D2-E0A2-4501-B632-3C5898362757}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AB399D2-E0A2-4501-B632-3C5898362757}.Debug|Win32.Build.0 = Debug|Win32
+		{9AB399D2-E0A2-4501-B632-3C5898362757}.Release|Win32.ActiveCfg = Release|Win32
+		{9AB399D2-E0A2-4501-B632-3C5898362757}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
