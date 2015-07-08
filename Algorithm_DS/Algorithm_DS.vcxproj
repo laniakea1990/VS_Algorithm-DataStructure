@@ -14,7 +14,7 @@
     <ProjectGuid>{BCC0EB88-5316-424F-8A32-2C3EDDEC837D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Algorithm_DS</RootNamespace>
-    <ProjectName>chapter2----算法分析</ProjectName>
+    <ProjectName>chapter2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
