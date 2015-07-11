@@ -79,13 +79,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.h" />
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\queue.h" />
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_array.h" />
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_list.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack_array.h" />
+    <ClInclude Include="stack_list.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.c" />
+    <ClCompile Include="list.c" />
+    <ClCompile Include="queue.c" />
+    <ClCompile Include="stack_array.c" />
+    <ClCompile Include="stack_list.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

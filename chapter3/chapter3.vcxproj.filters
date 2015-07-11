@@ -15,21 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\queue.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="stack_list.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_array.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="stack_array.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\stack_list.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="queue.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="list.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter3\list.c">
+    <ClCompile Include="queue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
