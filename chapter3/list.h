@@ -1,4 +1,5 @@
 #ifndef _List_H
+#define ElementType int
 
 struct  Node;
 typedef struct Node *PtrToNode;

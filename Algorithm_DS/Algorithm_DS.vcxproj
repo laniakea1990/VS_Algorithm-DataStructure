@@ -79,11 +79,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\binary_search.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\gcd.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum_recursive.c" />
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\pow.c" />
+    <ClCompile Include="binary_search.c" />
+    <ClCompile Include="gcd.c" />
+    <ClCompile Include="maxsubsum.c" />
+    <ClCompile Include="maxsubsum_recursive.c" />
+    <ClCompile Include="pow.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,7 @@
 /* Place in implementation file */
 /* Stack implementation is a linked list with a header */
 #include <stddef.h>
+#include "stack_list.h"
 
 #define ElementType int
 

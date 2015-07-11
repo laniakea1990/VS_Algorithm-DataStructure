@@ -1,6 +1,7 @@
 /* Place in implementation file */
 /* Stack implementation is a dynamically allocated array */
 #include <stddef.h>
+#include "stack_array.h"
 
 #define EmptyTOS (-1)
 #define MinStackSize (5)

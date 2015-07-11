@@ -1,4 +1,5 @@
 #ifndef _Stack_h
+#define ElementType int
 
 struct Node;
 typedef struct Node *PtrToNode;

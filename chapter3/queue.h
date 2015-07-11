@@ -6,6 +6,7 @@
 ************************************************************************/
 
 #ifndef _Queue_h
+#define ElementType int
 
 struct QueueRecord;
 typedef struct QueueRecord* Queue;

@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum_recursive.c">
+    <ClCompile Include="binary_search.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\pow.c">
+    <ClCompile Include="gcd.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\binary_search.c">
+    <ClCompile Include="maxsubsum.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\gcd.c">
+    <ClCompile Include="maxsubsum_recursive.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Github\Algorithm-DataStructure\chapter2\maxsubsum.c">
+    <ClCompile Include="pow.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

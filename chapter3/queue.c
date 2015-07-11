@@ -1,7 +1,7 @@
 #include "queue.h"
 
-	#define MinQueueSize (5)
-	#define ElementType int
+#define MinQueueSize (5)
+#define ElementType int
 
 	struct QueueRecord
 	{

@@ -1,7 +1,9 @@
 #ifndef _Stack_h
+#define ElementType int
 
 struct StackRecord;
-typedef struct StructRecord *Stack;
+typedef struct StackRecord *Stack;
+
 
 int IsEmpty(Stack S);
 int IsFull(Stack S);
