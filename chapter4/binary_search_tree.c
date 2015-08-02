@@ -10,39 +10,39 @@ struct TreeNode
 	Searchtree right;
 };
 
-Searchtree MakeEmpty(Searchtree t)
+Searchtree MakeEmpty(Searchtree T)
 {
-	if (t != NULL)
+	if (T != NULL)
 	{
-		MakeEmpty(t->left);
-		MakeEmpty(t->right);
-		free(t);
+		MakeEmpty(T->left);
+		MakeEmpty(T->right);
+		free(T);
 	}
 	return NULL;
 }
 
-Position Find(int x, Searchtree t)
+Position Find(int X, Searchtree T)
 {
-	if (t = NULL)
+	if (T = NULL)
 		return NULL;
-	if (x < t->Element)
-		return Find(x, t->left);
-	else if (x > t->Element)
-		return Find(x, t->right);
+	if (X < T->Element)
+		return Find(X, T->left);
+	else if (X > T->Element)
+		return Find(X, T->right);
 	else
-		return t;
+		return T;
 }
 
-Position Findmin(Searchtree t)		//递归实现
+Position Findmin(Searchtree T)		//递归实现
 {
-	if (t == NULL)
+	if (T == NULL)
 		return NULL;
-	else if (t->left == NULL)
+	else if (T->left == NULL)
 	{
-		return t;
+		return T;
 	}
 	else
-		return Findmin(t->left);
+		return Findmin(T->left);
 }
 
 Position Findmax(Searchtree t)		//非递归实现
@@ -55,55 +55,56 @@ Position Findmax(Searchtree t)		//非递归实现
 	return t;
 }
 
-Searchtree Insert(int x, Searchtree t)
+Searchtree Insert(int X, Searchtree T)
 {
-	if (t == NULL)
+	if (T == NULL)
 	{
 		// create and return a one-node tree
-		t = (struct TreeNode*)malloc(sizeof(struct TreeNode));
-		if (t = NULL)
+		T = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+		if (T = NULL)
 			fatalerror("out of space!!!");
 		else
 		{
-			t->left = t->right = NULL;
-			t->Element = x;
+			T->left = T->right = NULL;
+			T->Element = X;
 		}
 	}
-	else if (x < t->Element)
-		t->left = Insert(x, t->left);
-	else if (x > t->Element)
-		t->right = Insert(x, t->right);
+	else if (X < T->Element)
+		T->left = Insert(X, T->left);
+	else if (X > T->Element)
+		T->right = Insert(X, T->right);
 	/*else x is in the tree already; we'll do nothing*/
 
-	return t;	//do not forget this line!!
+	return T;	//do not forget this line!!
 }
 
-Searchtree Delete(int x, Searchtree t)
+Searchtree Delete(int X, Searchtree T)
 {
 	Position Tmpcell;
 
-	if (t == NULL)
-		perror("element not found");
-	else if (x < t->Element)	/* go left */
-		t->left = Delete(x, t->left);
-	else if (x > t->Element)	// go right
-		t->right = Delete(x, t->right);
-	else if (t->left&&t->right)	//found! two children
+	if (T == NULL)
+		perror("Element not found");
+	else if (X < T->Element)	/* go left */
+		T->left = Delete(X, T->left);
+	else if (X > T->Element)	// go right
+		T->right = Delete(X, T->right);
+	else   // Found element to be deleted. 
+	if (T->left&&T->right)	// Two children
 	{
 		// replace with smallest in right subtree
-		Tmpcell = Findmin(t->right);
-		t->Element = Tmpcell->Element;
-		t->right = Delete(t->Element, t->right);
+		Tmpcell = Findmin(T->right);
+		T->Element = Tmpcell->Element;
+		T->right = Delete(T->Element, T->right);
 	}
 	else     //found! one or zero children
 	{
-		Tmpcell = t;
-		if (t->left = NULL)	// also handles 0 children
-			t = t->right;
-		else if (t->right = NULL)
-			t = t->left;
+		Tmpcell = T;
+		if (T->left = NULL)	// also handles 0 children
+			T = T->right;
+		else if (T->right = NULL)
+			T = T->left;
 		free(Tmpcell);
 	}
 
-	return t;
+	return T;
 }
