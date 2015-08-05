@@ -1,10 +1,10 @@
-#define elementtype int
+#define ElementType int
 
-void insertionsort(elementtype a[], int n)
+void InsertionSort(ElementType a[], int n)
 {
 	int j, p;
 
-	elementtype tmp;
+	ElementType tmp;
 	for (p = 1; p < n; p++)
 	{
 		tmp = a[p];
