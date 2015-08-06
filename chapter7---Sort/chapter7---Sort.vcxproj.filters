@@ -24,5 +24,11 @@
     <ClCompile Include="Heapsort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Quicksort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mergesort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

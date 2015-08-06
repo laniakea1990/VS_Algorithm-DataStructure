@@ -80,6 +80,8 @@
   <ItemGroup>
     <ClCompile Include="Heapsort.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="Mergesort.cpp" />
+    <ClCompile Include="Quicksort.cpp" />
     <ClCompile Include="Shellsort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
